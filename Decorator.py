@@ -1,6 +1,9 @@
 # __Author__ __Lencof__
 # Decorator.py
 
+import os
+import sys
+
 # create def decorator(func):
 def decorator(func):
     def wrapper():
