@@ -1,6 +1,9 @@
 # __Author__ __Lencof__
 # Decorators.py
 
+import os 
+import sys
+
 # create def document_it(func):
 def document_it(func):
   def new_function(*args, **kwargs): # your name text
